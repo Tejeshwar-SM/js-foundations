@@ -14,12 +14,13 @@
 // }
 // console.log(`${a} and ${b}`);
 
-//-----Function declaration
+//-----Function declaration --> Hoisted always, calling works before declaring.
 console.log(addone(2));
+
 function addone(num) {
     return num+1;
 }
-//--------Function expression
+//--------Function expression --> Not hoisted, calling wouldn't work.
 // console.log(addFive(5));
 const addFive = function (num) {
     return num+5;
