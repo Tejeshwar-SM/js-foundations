@@ -1,4 +1,5 @@
 //Immediately invoked function expressions (IIFE)
+//maintaining a clean global scope
 (function system() {
     console.log(`Connected to system`);
 })();
