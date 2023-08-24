@@ -7,6 +7,8 @@
 </head>
 <body style="background-color: #212121; color: aliceblue;">
     <div class="parent">
+        <!-- this is a comment -->
+        <!-- A nodelist is a collection of document nodes which includes text nodes , attribute nodes and element nodes. A line break is also counted in nodelist but only first one. All subsequent line breaks are ignored by browser -->
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
@@ -28,8 +30,10 @@
     // console.log(parent.lastElementChild);
 
     const dayOne = document.querySelector('.day')
-    console.log(dayOne);
-    console.log(dayOne.parentElement);
-    console.log(dayOne.nextElementSibling);
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+    
+    console.log("NODES: ", parent.childNodes);
 </script>
 </html>
